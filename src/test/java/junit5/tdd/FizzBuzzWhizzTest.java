@@ -14,7 +14,7 @@ class FizzBuzzWhizzTest {
         FizzBuzzWhizz fizzBuzzWhizz = new FizzBuzzWhizz();
 
         //when
-        String actual= fizzBuzzWhizz.play(number);
+        String actual= fizzBuzzWhizz.countOff(number);
 
         //then
         assertEquals("2", actual);
@@ -28,7 +28,7 @@ class FizzBuzzWhizzTest {
         FizzBuzzWhizz fizzBuzzWhizz = new FizzBuzzWhizz();
 
         //when
-        String actual = fizzBuzzWhizz.play(number);
+        String actual = fizzBuzzWhizz.countOff(number);
 
         //then
         assertEquals("fizz", actual);
@@ -42,7 +42,7 @@ class FizzBuzzWhizzTest {
         FizzBuzzWhizz fizzBuzzWhizz = new FizzBuzzWhizz();
 
         //when
-        String actual = fizzBuzzWhizz.play(number);
+        String actual = fizzBuzzWhizz.countOff(number);
 
         //then
         assertEquals("buzz", actual);
@@ -55,7 +55,7 @@ class FizzBuzzWhizzTest {
         FizzBuzzWhizz fizzBuzzWhizz = new FizzBuzzWhizz();
 
         //when
-        String actual = fizzBuzzWhizz.play(number);
+        String actual = fizzBuzzWhizz.countOff(number);
 
         //then
         assertEquals("whizz", actual);
@@ -68,7 +68,7 @@ class FizzBuzzWhizzTest {
         FizzBuzzWhizz fizzBuzzWhizz = new FizzBuzzWhizz();
 
         //when
-        String actual = fizzBuzzWhizz.play(number);
+        String actual = fizzBuzzWhizz.countOff(number);
 
         //then
         assertEquals("fizzbuzz", actual);
@@ -81,7 +81,7 @@ class FizzBuzzWhizzTest {
         FizzBuzzWhizz fizzBuzzWhizz = new FizzBuzzWhizz();
 
         //when
-        String actual = fizzBuzzWhizz.play(number);
+        String actual = fizzBuzzWhizz.countOff(number);
 
         //then
         assertEquals("fizzbuzzwhizz", actual);

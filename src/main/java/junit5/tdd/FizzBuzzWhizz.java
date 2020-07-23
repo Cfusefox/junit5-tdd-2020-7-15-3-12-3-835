@@ -1,7 +1,7 @@
 package junit5.tdd;
 
 public class FizzBuzzWhizz {
-    String play(int number) {
+    String countOff(int number) {
         String result = "";
         if(number % 3 == 0) {
             result += "fizz";
