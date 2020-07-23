@@ -8,16 +8,16 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class FizzBuzzWhizzTest {
 
     @Test
-    void should_return_fizz_when_play_fizz_buzz_whizz_given_9() {
+    void should_return_2_when_play_fizz_buzz_whizz_given_2() {
         //given
-        int number = 9;
+        int number = 2;
         FizzBuzzWhizz fizzBuzzWhizz = new FizzBuzzWhizz();
 
         //when
         String actual= fizzBuzzWhizz.play(number);
 
         //then
-        assertEquals("fizz", actual);
+        assertEquals("2", actual);
 
     }
 }
